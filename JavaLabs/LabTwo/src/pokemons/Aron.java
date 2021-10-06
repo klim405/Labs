@@ -1,17 +1,8 @@
 package pokemons;
 
 import ru.ifmo.se.pokemon.Pokemon;
-import moves.Confide;
-import moves.CrossPoison;
 import moves.DoubleTeam;
-import moves.Facade;
 import moves.Flamethrower;
-import moves.Harden;
-import moves.IceFang;
-import moves.Overheat;
-import moves.Rest;
-import moves.Screech;
-import moves.SmartStrike;
 import ru.ifmo.se.pokemon.Type;
 
 public class Aron extends Pokemon {
