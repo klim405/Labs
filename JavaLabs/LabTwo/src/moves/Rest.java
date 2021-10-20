@@ -8,7 +8,7 @@ public class Rest extends StatusMove {
 
     @Override
     protected void applySelfEffects(Pokemon p) {
-        Effect e = new Effect().chance(0.0D).turns(2);
+        Effect e = new Effect().attack(0.0D).turns(2);
         p.setMod(Stat.HP, (int) (p.getHP() - p.getStat(Stat.HP)));
         p.addEffect(e);
     }
