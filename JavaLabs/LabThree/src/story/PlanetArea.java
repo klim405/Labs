@@ -12,12 +12,12 @@ public class PlanetArea implements ObservationArea {
     protected String areaName;
 
     public PlanetArea(SpaceObject planet) {
-        areaName = "Територия планеты " + planet;
+        areaName = "Территория планеты " + planet;
         spaceObjects.add(planet);
     }
 
     public PlanetArea(SpaceObject planet, SpaceObject[] moons) {
-        areaName = "Територия планеты " + planet;
+        areaName = "Территория планеты " + planet;
         spaceObjects.addAll(Arrays.asList(moons));
     }
 

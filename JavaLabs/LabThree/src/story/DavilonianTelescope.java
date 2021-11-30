@@ -28,7 +28,7 @@ public class DavilonianTelescope implements Telescope {
 
     @Override
     public String toString() {
-        return this.name + " телескоп давилонской абсерватории";
+        return this.name + " телескоп давилонской обсерватории";
     }
 
     @Override
